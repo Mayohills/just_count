@@ -1,3 +1,7 @@
-import square
+import just_count.square as square
 
-print(f"The square of 5 is {square.square(5)}")
+def main():
+    print(f"The square of 5 is {square.square(5)}")
+
+if __name__ == '__main__':
+    main()
